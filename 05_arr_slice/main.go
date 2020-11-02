@@ -7,7 +7,9 @@ func main() {
 	// fruitArr[0] = "Apple"
 	// fruitArr[1] = "Orange"
 
-	fruitArr := []string{"Apple", "Orange", "Grape"}
+	fruitArr := []string{"Apple", "Orange", "Grape", "Cherry"}
 
 	fmt.Println(fruitArr)
+	fmt.Println(len(fruitArr))
+	fmt.Println(fruitArr[1:3])
 }
